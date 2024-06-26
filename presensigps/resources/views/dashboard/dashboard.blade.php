@@ -6,7 +6,7 @@
                     <img src="assets/img/sample/avatar/avatar1.jpg" alt="avatar" class="imaged w64 rounded">
                 </div>
                 <div id="user-info">
-                    <h2 id="user-name">Gagan Ahmad Eka F</h2>
+                    <h2 id="user-name">{{ Auth::guard('karyawan')->user()->nama_lengkap }}</h2>
                     <span id="user-role">Head of IT</span>
                 </div>
             </div>
