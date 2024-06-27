@@ -19,18 +19,18 @@ class Karyawan extends Authenticatable
         'nama_lengkap',
         'jabatan',
         'no_hp',
-        'password',
+        'password'
     ];
 
     
     protected $hidden = [
         'password',
-        'remember_token',
+        'remember_token'
     ];
 
     
     protected $casts = [
         'email_verified_at' => 'datetime',
-        'password' => 'hashed',
+        'password' => 'hashed'
     ];
 }
